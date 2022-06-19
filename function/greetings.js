@@ -14,7 +14,7 @@ function onLoginSubmit(event) {
 }
 
 function paintGreeting(username) {
-    greeting.innerText = `Hello ${username}`;
+    greeting.innerText = `Hello ${username} !`;
     greeting.classList.remove(HIDDEN_CLASSNAME);
     logOut.classList.remove(HIDDEN_CLASSNAME);
     logOut.addEventListener("click", RemoveUserName);

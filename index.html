@@ -8,6 +8,11 @@
   </head>
 
   <body>
+    <div id="weather" class="rightalign">
+      <span></span>
+      <span></span>
+    </div>
+    <h2 id="clock">00:00:00</h2>
     <form class="hidden" id="login-form">
       <input
         required
@@ -18,21 +23,15 @@
       <input type="submit" value="Log In" />
     </form>
     <h1 class="hidden" id="greeting"></h1>
-    <button id="logOut" class="hidden">Log out</button>
-
-    <h2 id="clock">00:00:00</h2>
     <div id="quote">
       <span></span>
       <span></span>
     </div>
-    <form id="todo-form">
+    <button id="logOut" class="hidden">Log out</button>
+    <form id="todo-form" class="leftalign">
       <input type="text" placeholder="to do Things" required />
     </form>
-    <ul id="todo-list"></ul>
-    <div id="weather">
-      <span></span>
-      <span></span>
-    </div>
+    <ul id="todo-list" class="leftalign"></ul>
 
     <script src="./function/greetings.js" target="_blank"></script>
     <script src="./function/clock.js" target="_blank"></script>
